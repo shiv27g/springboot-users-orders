@@ -9,8 +9,8 @@ public class UserRepository {
     private final Map<Long, User> users = new HashMap<>();
 
     public UserRepository() {
-        users.put(1L, new User(1L, "siva", "siva@example.com"));
-        users.put(2L, new User(2L, "Bob", "bob@example.com"));
+        users.put(1L, new User(1L, "siva", "siva1@example.com"));
+        users.put(2L, new User(2L, "raj", "raj1@example.com"));
     }
 
     public List<User> findAll() { return new ArrayList<>(users.values()); }
