@@ -10,7 +10,7 @@ public class UserRepository {
 
     public UserRepository() {
         users.put(1L, new User(1L, "siva", "siva@example.com"));
-        users.put(2L, new User(2L, "Bob", "bob@example.com"));
+        users.put(2L, new User(2L, "raj", "raj@example.com"));
     }
 
     public List<User> findAll() { return new ArrayList<>(users.values()); }
