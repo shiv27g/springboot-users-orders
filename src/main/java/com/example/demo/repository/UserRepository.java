@@ -9,7 +9,7 @@ public class UserRepository {
     private final Map<Long, User> users = new HashMap<>();
 
     public UserRepository() {
-        users.put(1L, new User(1L, "Alice", "alice@example.com"));
+        users.put(1L, new User(1L, "siva", "siva@example.com"));
         users.put(2L, new User(2L, "Bob", "bob@example.com"));
     }
 
